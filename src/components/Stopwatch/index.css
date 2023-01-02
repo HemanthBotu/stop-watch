@@ -1,0 +1,39 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatch {
+  font-size: 34px;
+  font-weight: 500;
+  color: #333333;
+  font-family: 'Roboto';
+}
+.watch-container {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.timer {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.heading {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  font-family: 'Roboto';
+}
+.time-clock {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  font-family: 'Roboto';
+}
